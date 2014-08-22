@@ -1,0 +1,14 @@
+<?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="Generator" content="Microsoft Windows Media Player -- 10.0.0.4036"/>
+        <title>13261-001 PREVENTING AND MANAGING BACK PAIN</title>
+    </head>
+    <body>
+        <seq>
+            <media src="mms://MMS/LA/13261/001/Streaming/13261-001-01.wmv"/>
+            <media src="mms://MMS/LA/13261/001/Streaming/13261-001-02.wmv"/>
+            <media src="mms://MMS/LA/13261/001/Streaming/13261-001-03.wmv"/>
+        </seq>
+    </body>
+</smil>

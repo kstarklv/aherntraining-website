@@ -1,0 +1,119 @@
+body {
+background-image : url(images/mainbg.gif);
+font-family : Arial,Helvetica, san-serif;
+font-size : 9pt;
+color: #3c3c3c;
+padding:0px;
+margin:0px;
+}
+/* ----------container to center the layout-------------- */
+#container {
+width: 986px;
+margin-left: auto;
+margin-right: auto;
+height:100%;
+background: url('images/leftside2.png') no-repeat bottom left;
+}
+
+/* -----------------content--------------------- */
+#content {
+background:#ffffff  url('images/content.jpg') no-repeat top right;
+padding: 0px;
+margin-left: 270px;
+margin-right: 0px;
+}
+
+div#content { 
+min-height:600px;
+/*height:expression(this.scrollHeight > 600 ? "auto":"600px"); */
+}
+
+p, pre{
+padding: 5px 10px;
+margin:0px;
+}
+
+/* --------------left navi------------- */
+#left {
+float: left;
+width: 270px;
+margin: 0px;
+padding: 0px;
+}
+
+/* -----------footer--------------------------- */
+#footer {
+clear: both;
+background: url('images/bottombg.png') repeat-x;
+margin: 0px;
+padding:4px 26px 0 0;
+height: 25px;
+text-align: right; 
+}
+
+A{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	text-decoration : underline;
+	color: #733F1C;
+}
+
+A:VISITED{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	color: #733F1C;
+	text-decoration : none;
+}
+
+A:HOVER{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	text-decoration : underline;
+	color: #A34608;
+}
+.A2{
+    padding-top: 1;
+	padding-left: 3;
+	padding-right: 3;
+	padding-bottom: 1;
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	text-decoration : none;
+	color: #FFF;
+}
+
+.A2:VISITED{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	color: #FFF;
+	text-decoration : none;
+}
+
+.A2:HOVER{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	text-decoration : none;
+	color: #f7e2c8;
+}
+
+.A3{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	font-weight: bold;
+	text-decoration : none;
+	color: #FFF;
+}
+
+.A3:VISITED{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	color: #FFF;
+	text-decoration : none;
+}
+
+.A3:HOVER{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	text-decoration : none;
+	color: #ff6414;
+}

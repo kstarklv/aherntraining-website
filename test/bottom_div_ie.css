@@ -1,0 +1,6 @@
+#catfish {position: absolute;z-index: 100;overflow: hidden;bottom:-1px;}
+html, body {height:100%;overflow:hidden;width:auto;}
+body {padding-bottom:8px;}
+div#zip {width:100%;padding:4px 0 0 0;margin:0;height:100%;overflow: auto;position: relative;}
+html {padding-top:0px;}
+html/**/ {padding-bottom:2px;}

@@ -1,0 +1,185 @@
+html,body {
+	margin-top: 0px;
+	padding-top: 0px;
+    background-image : url(images/mainbg.gif);
+scrollbar-face-color: #2C2C2C; scrollbar-shadow-color: #1C1B1B; 
+scrollbar-highlight-color: #3E3D3D; scrollbar-3dlight-color: #4F4949; 
+scrollbar-darkshadow-color: #401010; scrollbar-track-color: #000000; 
+scrollbar-arrow-color: #A0332B;
+}
+
+TD{
+	text-align: justify;
+    font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	color: #3c3c3c;
+	}
+	
+TR.one{
+	background:#dddddd;
+	}
+	
+TR.two{
+	background:#ececec;
+	}
+
+#content_container {
+	text-align: center;
+}
+
+#content {
+    position: relative;
+	width: 986px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100% !important;
+}
+
+#left_content {
+    float: left;
+    width: 270px;
+	height: 100% !important;
+	background-image : url(images/leftsidebg.gif);
+}
+
+
+#right_content {
+    float: right;
+    background-image : url(images/contentbg.png);
+	width: 716px;
+}
+
+#maincontent {
+	text-align: left;
+    font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	color: #3c3c3c;
+	width: 690px;
+	padding:0 0 30px 0;
+	margin: 12px 8px 0 12px;
+}
+
+.bottomphotos{
+background-image : url(images/leftside2.gif);
+width: 270px;
+height: 281px;
+position: absolute;
+bottom: 0;
+left: 0;
+}
+
+.secondnav {
+	text-align: left;
+	padding-right:20px;
+	margin: 10px 0 12px 0;
+}
+
+A{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	text-decoration : underline;
+	color: #733F1C;
+}
+
+A:VISITED{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	color: #733F1C;
+	text-decoration : none;
+}
+
+A:HOVER{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	text-decoration : underline;
+	color: #A34608;
+}
+.A2{
+    padding-top: 1;
+	padding-left: 3;
+	padding-right: 3;
+	padding-bottom: 1;
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	text-decoration : none;
+	color: #FFF;
+}
+
+.A2:VISITED{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	color: #FFF;
+	text-decoration : none;
+}
+
+.A2:HOVER{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	text-decoration : none;
+	color: #f7e2c8;
+}
+
+.A3{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	font-weight: bold;
+	text-decoration : none;
+	color: #FFF;
+}
+
+.A3:VISITED{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	color: #FFF;
+	text-decoration : none;
+}
+
+.A3:HOVER{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	text-decoration : none;
+	color: #ff6414;
+}
+
+h1 {
+	color: #e75816;
+	font-size: 11pt;
+	font-weight: bold;
+    margin: 7px 0 7px 0;
+	border-bottom: 1px solid #3b3b3b;
+}
+h2 {
+	color: #2a5a8b;
+	font-size: 9pt;
+	font-weight: bold;
+    margin: 0 0 7px 0;
+	border-bottom: 1px solid #85abcf;
+}
+
+h2.rental {
+	color: #2a5a8b;
+	font-size: 9pt;
+	font-weight: bold;
+    margin: 3px 0 0 0;
+	border-bottom: 1px solid #85abcf;
+}
+h3 {
+	color: #5a5a5a;
+	font-size: 9pt;
+	font-weight: bold;
+    margin: 0px 0px 0px 0px;
+}
+img.banner{
+    margin: 0;
+	border: 1px solid #4d4d4d;
+}
+
+img.biophoto{
+    margin: 3px 20px 3px 20px;
+	border: 1px solid #4d4d4d;
+}
+
+img.border{
+	border: 1px solid #4d4d4d;
+}
+

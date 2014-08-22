@@ -1,0 +1,15 @@
+<?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="Generator" content="Microsoft Windows Media Player -- 12.0.7601.17514"/>
+        <meta name="ItemCount" content="3"/>
+        <title>12269-002-Master-Driving-Techniques</title>
+    </head>
+    <body>
+        <seq>
+            <media src="\\corp\ROOT\LA\12269\002\Streaming\12269-002_Master_Driver_Driving_Techniques_Chapter_1.wmv"/>
+            <media src="\\corp\ROOT\LA\12269\002\Streaming\12269-002_Master_Driver_Driving_Techniques_Chapter_2.wmv"/>
+            <media src="\\corp\ROOT\LA\12269\002\Streaming\12269-002_Master_Driver_Driving_Techniques_Chapter_3.wmv"/>
+        </seq>
+    </body>
+</smil>

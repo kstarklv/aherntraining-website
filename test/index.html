@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+<TITLE>Ahern Training</TITLE>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="description" content="FTM" />
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function sendphpmail() { 
+  if (typeof document.forms[0] != "undefined") {
+    if (typeof document.forms[0].NAME != "undefined") {
+      if (document.forms[0].NAME.value == " ") {
+	alert("Please Provide Your Name");
+      } else {
+	document.forms[0].sendit.value = "Y";
+ 	document.forms[0].submit();  
+      }
+    }
+  } 
+}
+function phpmailsent() { 
+  if (typeof document.forms[0] != "undefined") {
+   if (typeof document.forms[0].wassent != "undefined") {
+     if (document.forms[0].wassent.value == "Y") {
+		alert("Thank you!  Your training idea has been sent.");
+     } 
+   }
+  }
+}
+//-->
+</script>
+</head>
+<BODY onload="phpmailsent()">
+
+<div id="container">
+
+	<div id="outer">
+ 		<div id="inner">
+ 			<div id="left">
+<IMG SRC="images/top-left.png" WIDTH="270" HEIGHT="103">
+<IMG SRC="images/navnull.png" WIDTH=270 HEIGHT=47 BORDER=0>
+<a href="index.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','images/nav-home2.png',1)"><img src="images/nav-home1.png" alt="home" name="home" width="270" height="25" border="0"></a>
+<a href="team.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('team','','images/nav-team2.png',1)"><img src="images/nav-team1.png" alt="training team" name="team" width="270" height="25" border="0"></a><a href="lms.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lms','','images/nav-lms2.png',1)"><img src="images/nav-lms1.png" alt="the LMS" name="lms" width="270" height="25" border="0"></a><a href="live.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('live','','images/nav-live2.png',1)"><img src="images/nav-live1.png" alt="live training" name="live" width="270" height="25" border="0"></a><a href="ideas.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ideas','','images/nav-ideas2.png',1)"><img src="images/nav-ideas1.png" alt="training ideas" name="ideas" width="270" height="24" border="0"></a><a href="materials.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('materials','','images/nav-materials2.png',1)"><img src="images/nav-materials1.png" alt="training materials" name="materials" width="270" height="26" border="0"></a>
+<IMG SRC="images/leftside1.gif" WIDTH=270 HEIGHT=149 BORDER=0 >
+</div>
+   		<div id="content">
+		<IMG SRC="images/top.png" WIDTH=716 HEIGHT=78><br/>
+<IMG SRC="images/subheader-<?php echo($header) ?>.png" WIDTH="716" HEIGHT="25">
+		
+		<h2>Lorem ipsum</h2>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur elit nibh, venenatis a, ornare id, elementum et, sem. Aliquam adipiscing faucibus risus. Nulla at libero. Vivamus vitae lorem id sem pellentesque euismod. Quisque libero. Etiam fermentum mattis eros. Donec faucibus elit sed enim. Fusce pulvinar tincidunt erat. Phasellus elit. In luctus. Aliquam erat volutpat. Nullam imperdiet tellus vitae magna. Proin ut purus. Cras condimentum sagittis eros. Morbi laoreet nunc eget erat. Duis varius.
+</p>	
+
+<p>	
+Phasellus eget nibh vestibulum felis tempor tincidunt. Fusce sollicitudin tincidunt quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris lectus libero, lacinia ut, tempor quis, rutrum in, arcu. Nullam fermentum imperdiet quam. Pellentesque ut urna. Nulla facilisi. In luctus felis sed nunc. Integer id diam quis erat hendrerit pulvinar. Suspendisse a dui. Sed eget lorem pharetra enim dignissim facilisis. Vestibulum eu nunc eu quam tincidunt convallis. Proin non ante.
+</p><p>		
+In gravida est eget tellus. Proin auctor. Curabitur gravida ligula ut justo. Duis a lectus. Mauris aliquet lacus a diam interdum semper. Donec tristique imperdiet diam. Donec malesuada lobortis eros. Morbi nec felis non elit tristique ultrices. Cras tempus, dui non mollis porttitor, urna lacus laoreet felis, ac convallis enim purus sed nulla. In sagittis mi quis dolor. Integer quis neque. Mauris et magna. Mauris id ante. Vestibulum luctus lacus.
+</p>	
+<p>	
+Sed rutrum massa quis felis. Pellentesque laoreet, sapien nec rutrum vulputate, justo tortor ullamcorper dolor, auctor pretium magna purus in orci. Nam sit amet leo. Proin nec dui. Nunc libero enim, tincidunt vitae, elementum eu, fermentum et, leo. Maecenas pede tellus, sollicitudin vulputate, consectetuer a, iaculis id, velit. Curabitur blandit pulvinar libero. Quisque dolor. Ut nonummy leo non nulla. Maecenas quis enim. Nunc eget pede. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas vitae ligula quis elit eleifend fermentum. Morbi tempus magna nec lectus. Vestibulum elementum. Nulla malesuada, sapien non ornare gravida, pede quam interdum ipsum, ut nonummy enim turpis vitae neque. Etiam consequat mollis sapien. Nunc congue. Fusce leo nibh, tempus et, pulvinar in, sollicitudin in, felis. Sed eget est.
+</p>	
+<p>	
+Nulla purus eros, nonummy vel, tincidunt nec, ullamcorper malesuada, quam. Phasellus sem. In non nisi eget justo hendrerit dictum. Suspendisse pharetra leo in lectus. Duis ultricies. In fringilla justo at pede. Ut pretium nunc vel massa. Fusce arcu erat, ultrices ac, fringilla eu, iaculis eu, turpis. Duis tempus, augue et tempor bibendum, est risus dapibus risus, sed sagittis nisl erat nec nisl. Nulla venenatis placerat odio. Suspendisse sed neque. Duis risus. Etiam quis est vel neque lacinia porttitor. Integer ipsum. Mauris tristique scelerisque tortor. Aliquam erat volutpat. Vestibulum et ipsum. Aenean eleifend pulvinar lectus. Phasellus nec augue.
+</p>
+<p>	
+Nulla purus eros, nonummy vel, tincidunt nec, ullamcorper malesuada, quam. Phasellus sem. In non nisi eget justo hendrerit dictum. Suspendisse pharetra leo in lectus. Duis ultricies. In fringilla justo at pede. Ut pretium nunc vel massa. Fusce arcu erat, ultrices ac, fringilla eu, iaculis eu, turpis. Duis tempus, augue et tempor bibendum, est risus dapibus risus, sed sagittis nisl erat nec nisl. Nulla venenatis placerat odio. Suspendisse sed neque. Duis risus. Etiam quis est vel neque lacinia porttitor. Integer ipsum. Mauris tristique scelerisque tortor. Aliquam erat volutpat. Vestibulum et ipsum. Aenean eleifend pulvinar lectus. Phasellus nec augue.
+</p>
+<p>	
+Nulla purus eros, nonummy vel, tincidunt nec, ullamcorper malesuada, quam. Phasellus sem. In non nisi eget justo hendrerit dictum. Suspendisse pharetra leo in lectus. Duis ultricies. In fringilla justo at pede. Ut pretium nunc vel massa. Fusce arcu erat, ultrices ac, fringilla eu, iaculis eu, turpis. Duis tempus, augue et tempor bibendum, est risus dapibus risus, sed sagittis nisl erat nec nisl. Nulla venenatis placerat odio. Suspendisse sed neque. Duis risus. Etiam quis est vel neque lacinia porttitor. Integer ipsum. Mauris tristique scelerisque tortor. Aliquam erat volutpat. Vestibulum et ipsum. Aenean eleifend pulvinar lectus. Phasellus nec augue.
+</p>
+<p>	
+Nulla purus eros, nonummy vel, tincidunt nec, ullamcorper malesuada, quam. Phasellus sem. In non nisi eget justo hendrerit dictum. Suspendisse pharetra leo in lectus. Duis ultricies. In fringilla justo at pede. Ut pretium nunc vel massa. Fusce arcu erat, ultrices ac, fringilla eu, iaculis eu, turpis. Duis tempus, augue et tempor bibendum, est risus dapibus risus, sed sagittis nisl erat nec nisl. Nulla venenatis placerat odio. Suspendisse sed neque. Duis risus. Etiam quis est vel neque lacinia porttitor. Integer ipsum. Mauris tristique scelerisque tortor. Aliquam erat volutpat. Vestibulum et ipsum. Aenean eleifend pulvinar lectus. Phasellus nec augue.
+</p>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur elit nibh, venenatis a, ornare id, elementum et, sem. Aliquam adipiscing faucibus risus. Nulla at libero. Vivamus vitae lorem id sem pellentesque euismod. Quisque libero. Etiam fermentum mattis eros. Donec faucibus elit sed enim. Fusce pulvinar tincidunt erat. Phasellus elit. In luctus. Aliquam erat volutpat. Nullam imperdiet tellus vitae magna. Proin ut purus. Cras condimentum sagittis eros. Morbi laoreet nunc eget erat. Duis varius.
+</p>	
+
+<p>	
+Phasellus eget nibh vestibulum felis tempor tincidunt. Fusce sollicitudin tincidunt quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris lectus libero, lacinia ut, tempor quis, rutrum in, arcu. Nullam fermentum imperdiet quam. Pellentesque ut urna. Nulla facilisi. In luctus felis sed nunc. Integer id diam quis erat hendrerit pulvinar. Suspendisse a dui. Sed eget lorem pharetra enim dignissim facilisis. Vestibulum eu nunc eu quam tincidunt convallis. Proin non ante.
+</p><p>		
+In gravida est eget tellus. Proin auctor. Curabitur gravida ligula ut justo. Duis a lectus. Mauris aliquet lacus a diam interdum semper. Donec tristique imperdiet diam. Donec malesuada lobortis eros. Morbi nec felis non elit tristique ultrices. Cras tempus, dui non mollis porttitor, urna lacus laoreet felis, ac convallis enim purus sed nulla. In sagittis mi quis dolor. Integer quis neque. Mauris et magna. Mauris id ante. Vestibulum luctus lacus.
+</p>	
+<p>	
+Sed rutrum massa quis felis. Pellentesque laoreet, sapien nec rutrum vulputate, justo tortor ullamcorper dolor, auctor pretium magna purus in orci. Nam sit amet leo. Proin nec dui. Nunc libero enim, tincidunt vitae, elementum eu, fermentum et, leo. Maecenas pede tellus, sollicitudin vulputate, consectetuer a, iaculis id, velit. Curabitur blandit pulvinar libero. Quisque dolor. Ut nonummy leo non nulla. Maecenas quis enim. Nunc eget pede. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas vitae ligula quis elit eleifend fermentum. Morbi tempus magna nec lectus. Vestibulum elementum. Nulla malesuada, sapien non ornare gravida, pede quam interdum ipsum, ut nonummy enim turpis vitae neque. Etiam consequat mollis sapien. Nunc congue. Fusce leo nibh, tempus et, pulvinar in, sollicitudin in, felis. Sed eget est.
+</p>	
+<p>	
+Nulla purus eros, nonummy vel, tincidunt nec, ullamcorper malesuada, quam. Phasellus sem. In non nisi eget justo hendrerit dictum. Suspendisse pharetra leo in lectus. Duis ultricies. In fringilla justo at pede. Ut pretium nunc vel massa. Fusce arcu erat, ultrices ac, fringilla eu, iaculis eu, turpis. Duis tempus, augue et tempor bibendum, est risus dapibus risus, sed sagittis nisl erat nec nisl. Nulla venenatis placerat odio. Suspendisse sed neque. Duis risus. Etiam quis est vel neque lacinia porttitor. Integer ipsum. Mauris tristique scelerisque tortor. Aliquam erat volutpat. Vestibulum et ipsum. Aenean eleifend pulvinar lectus. Phasellus nec augue.
+</p>
+<p>	
+Nulla purus eros, nonummy vel, tincidunt nec, ullamcorper malesuada, quam. Phasellus sem. In non nisi eget justo hendrerit dictum. Suspendisse pharetra leo in lectus. Duis ultricies. In fringilla justo at pede. Ut pretium nunc vel massa. Fusce arcu erat, ultrices ac, fringilla eu, iaculis eu, turpis. Duis tempus, augue et tempor bibendum, est risus dapibus risus, sed sagittis nisl erat nec nisl. Nulla venenatis placerat odio. Suspendisse sed neque. Duis risus. Etiam quis est vel neque lacinia porttitor. Integer ipsum. Mauris tristique scelerisque tortor. Aliquam erat volutpat. Vestibulum et ipsum. Aenean eleifend pulvinar lectus. Phasellus nec augue.
+</p>
+<p>	
+Nulla purus eros, nonummy vel, tincidunt nec, ullamcorper malesuada, quam. Phasellus sem. In non nisi eget justo hendrerit dictum. Suspendisse pharetra leo in lectus. Duis ultricies. In fringilla justo at pede. Ut pretium nunc vel massa. Fusce arcu erat, ultrices ac, fringilla eu, iaculis eu, turpis. Duis tempus, augue et tempor bibendum, est risus dapibus risus, sed sagittis nisl erat nec nisl. Nulla venenatis placerat odio. Suspendisse sed neque. Duis risus. Etiam quis est vel neque lacinia porttitor. Integer ipsum. Mauris tristique scelerisque tortor. Aliquam erat volutpat. Vestibulum et ipsum. Aenean eleifend pulvinar lectus. Phasellus nec augue.
+</p>
+<p>	
+Nulla purus eros, nonummy vel, tincidunt nec, ullamcorper malesuada, quam. Phasellus sem. In non nisi eget justo hendrerit dictum. Suspendisse pharetra leo in lectus. Duis ultricies. In fringilla justo at pede. Ut pretium nunc vel massa. Fusce arcu erat, ultrices ac, fringilla eu, iaculis eu, turpis. Duis tempus, augue et tempor bibendum, est risus dapibus risus, sed sagittis nisl erat nec nisl. Nulla venenatis placerat odio. Suspendisse sed neque. Duis risus. Etiam quis est vel neque lacinia porttitor. Integer ipsum. Mauris tristique scelerisque tortor. Aliquam erat volutpat. Vestibulum et ipsum. Aenean eleifend pulvinar lectus. Phasellus nec augue.
+</p>
+
+
+
+		</div><!-- end content -->
+		</div><!-- end inner -->
+	</div><!-- end outer -->
+ 	
+</div><!-- end container -->
+<div id="footer"><a href="index.php" class="a2">Home</a>  |  <a href="team.php" class="a2">Your Training Team</a>  |  <a href="lms.php" class="a2">The LMS</a>  |  <a href="live.php" class="a2">Live Training</a>  |  <a href="ideas.php" class="a2">Training Ideas</a>  |  <a href="materials.php" class="a2">Training Materials</a></div>
+</body></html>

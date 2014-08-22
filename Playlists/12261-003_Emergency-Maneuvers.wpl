@@ -1,0 +1,16 @@
+<?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="12261-002_Master_Driver_Emergency_Maneuvers" content="Microsoft Windows Media Player -- 10.0.0.4036"/>
+    </head>
+    <body>
+        <seq>
+<media src="mms://MMS/LA/12261/003/Streaming/12261-002_Master_Driver_Emergency_Maneuvers_Chapter_1.wmv"/>
+<media src="mms://MMS/LA/12261/003/Streaming/12261-002_Master_Driver_Emergency_Maneuvers_Chapter_2.wmv"/>
+<media src="mms://MMS/LA/12261/003/Streaming/12261-002_Master_Driver_Emergency_Maneuvers_Chapter_3.wmv"/>
+<media src="mms://MMS/LA/12261/003/Streaming/12261-002_Master_Driver_Emergency_Maneuvers_Chapter_4.wmv"/>
+<media src="mms://MMS/LA/12261/003/Streaming/12261-002_Master_Driver_Emergency_Maneuvers_Chapter_5.wmv"/>
+
+        </seq>
+    </body>
+</smil>

@@ -1,0 +1,167 @@
+body {
+background-image : url(images/mainbg.gif);
+padding:0px;
+margin:0px;
+}
+/* ----------container to center the layout-------------- */
+#container {
+width: 986px;
+margin-left: auto;
+margin-right: auto;
+height:100%;
+background: url('images/leftside2.png') no-repeat bottom left;
+}
+
+/* -----------------content--------------------- */
+#content {
+background: url('images/contentbg.png');
+padding: 0px;
+margin-left: 270px;
+margin-right: 0px;
+font-family : Arial,Helvetica, san-serif;
+font-size : 9pt;
+color: #3c3c3c;
+}
+
+div#content { 
+min-height:600px;
+/*height:expression(this.scrollHeight > 600 ? "auto":"600px"); */
+}
+
+p, pre{
+padding: 5px 10px;
+margin:0px;
+}
+
+/* --------------left navi------------- */
+#left {
+float: left;
+width: 270px;
+margin: 0;
+padding: 0px;
+}
+
+/* -----------footer--------------------------- */
+#footer {
+clear: both;
+background: url('images/bottombg.png') repeat-x;
+margin: 0px;
+padding:4px 26px 0 0;
+height: 25px;
+text-align: right; 
+}
+
+A{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	text-decoration : underline;
+	color: #733F1C;
+}
+
+A:VISITED{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	color: #733F1C;
+	text-decoration : none;
+}
+
+A:HOVER{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	text-decoration : underline;
+	color: #A34608;
+}
+.A2{
+    padding-top: 1;
+	padding-left: 3;
+	padding-right: 3;
+	padding-bottom: 1;
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	text-decoration : none;
+	color: #FFF;
+}
+
+.A2:VISITED{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	color: #FFF;
+	text-decoration : none;
+}
+
+.A2:HOVER{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	text-decoration : none;
+	color: #f7e2c8;
+}
+
+.A3{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	font-weight: bold;
+	text-decoration : none;
+	color: #FFF;
+}
+
+.A3:VISITED{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	color: #FFF;
+	text-decoration : none;
+}
+
+.A3:HOVER{
+	font-family : Arial,Helvetica, san-serif;
+	font-size : 9pt;
+	text-decoration : none;
+	color: #ff6414;
+}
+
+.secondnav {
+	text-align: left;
+	padding-right:20px;
+	margin: 10px 0 12px 0;
+}
+
+h1 {
+	color: #e75816;
+	font-size: 11pt;
+	font-weight: bold;
+    margin: 7px 0 7px 0;
+	border-bottom: 1px solid #3b3b3b;
+}
+h2 {
+	color: #2a5a8b;
+	font-size: 9pt;
+	font-weight: bold;
+    margin: 0 0 7px 0;
+	border-bottom: 1px solid #85abcf;
+}
+
+h2.rental {
+	color: #2a5a8b;
+	font-size: 9pt;
+	font-weight: bold;
+    margin: 3px 0 0 0;
+	border-bottom: 1px solid #85abcf;
+}
+h3 {
+	color: #5a5a5a;
+	font-size: 9pt;
+	font-weight: bold;
+    margin: 0px 0px 0px 0px;
+}
+img.banner{
+    margin: 0;
+	border: 1px solid #4d4d4d;
+}
+
+img.biophoto{
+    margin: 3px 20px 3px 20px;
+	border: 1px solid #4d4d4d;
+}
+
+img.border{
+	border: 1px solid #4d4d4d;
+}

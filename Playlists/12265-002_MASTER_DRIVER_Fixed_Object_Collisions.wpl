@@ -1,0 +1,16 @@
+<?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="12265-002_Master_Driver_Fixed_Object_Collisions" content="Microsoft Windows Media Player -- 10.0.0.4036"/>
+    </head>
+    <body>
+        <seq>
+<media src="mms://MMS/LA/12265/002/Streaming/12265-002_Master_Driver_Fixed_Object_Collisions_Chapter_1.wmv"/>
+<media src="mms://MMS/LA/12265/002/Streaming/12265-002_Master_Driver_Fixed_Object_Collisions_Chapter_2.wmv"/>
+<media src="mms://MMS/LA/12265/002/Streaming/12265-002_Master_Driver_Fixed_Object_Collisions_Chapter_3.wmv"/>
+<media src="mms://MMS/LA/12265/002/Streaming/12265-002_Master_Driver_Fixed_Object_Collisions_Chapter_4.wmv"/>
+<media src="mms://MMS/LA/12265/002/Streaming/12265-002_Master_Driver_Fixed_Object_Collisions_Chapter_5.wmv"/>
+<media src="mms://MMS/LA/12265/002/Streaming/12265-002_Master_Driver_Fixed_Object_Collisions_Chapter_6.wmv"/>
+        </seq>
+    </body>
+</smil>

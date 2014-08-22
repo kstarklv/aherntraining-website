@@ -1,0 +1,24 @@
+<?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="Generator" content="Microsoft Windows Media Player -- 12.0.7601.17514"/>
+        <meta name="ItemCount" content="6"/>
+        <meta name="IsFavorite"/>
+        <meta name="ContentPartnerListID"/>
+        <meta name="ContentPartnerNameType"/>
+        <meta name="ContentPartnerName"/>
+        <meta name="Subtitle"/>
+        <author/>
+        <title>12267-001_SafetyIssues</title>
+    </head>
+    <body>
+        <seq>
+            <media src="\\files\root\shared\IS&amp;S\PP\12267\002\Streaming\12267-002_Master_Driver_Safety_Issues_Chapter_1.wmv"/>
+            <media src="\\files\root\shared\IS&amp;S\PP\12267\002\Streaming\12267-002_Master_Driver_Safety_Issues_Chapter_2.wmv"/>
+            <media src="\\files\root\shared\IS&amp;S\PP\12267\002\Streaming\12267-002_Master_Driver_Safety_Issues_Chapter_3.wmv"/>
+            <media src="\\files\root\shared\IS&amp;S\PP\12267\002\Streaming\12267-002_Master_Driver_Safety_Issues_Chapter_4.wmv"/>
+            <media src="\\files\root\shared\IS&amp;S\PP\12267\002\Streaming\12267-002_Master_Driver_Safety_Issues_Chapter_5.wmv"/>
+            <media src="\\files\root\shared\IS&amp;S\PP\12267\002\Streaming\12267-002_Master_Driver_Safety_Issues_Chapter_6.wmv"/>
+        </seq>
+    </body>
+</smil>

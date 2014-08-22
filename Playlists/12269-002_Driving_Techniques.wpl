@@ -1,0 +1,17 @@
+<?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="12269-002_Master_Driver_Driving_Techniques" content="Microsoft Windows Media Player -- 10.0.0.4036"/>
+    </head>
+    <body>
+        <seq>
+<media src="mms://MMS/LA/12269/002/Streaming/12269-002_Master_Driver_Driving_Techniques_Chapter_1.wmv"/>
+<media src="mms://MMS/LA/12269/002/Streaming/12269-002_Master_Driver_Driving_Techniques_Chapter_2.wmv"/>
+<media src="mms://MMS/LA/12269/002/Streaming/12269-002_Master_Driver_Driving_Techniques_Chapter_3.wmv"/>
+
+
+
+
+        </seq>
+    </body>
+</smil>

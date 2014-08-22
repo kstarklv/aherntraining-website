@@ -1,0 +1,15 @@
+<?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="12266-002_Master_Driver_Accident_Procedures" content="Microsoft Windows Media Player -- 10.0.0.4036"/>
+    </head>
+    <body>
+        <seq>
+<media src="mms://MMS/LA/12266/002/Streaming/12266-002_Master_Driver_Accident_Procedures_Chapter_1.wmv"/>
+<media src="mms://MMS/LA/12266/002/Streaming/12266-002_Master_Driver_Accident_Procedures_Chapter_2.wmv"/>
+<media src="mms://MMS/LA/12266/002/Streaming/12266-002_Master_Driver_Accident_Procedures_Chapter_3.wmv"/>
+<media src="mms://MMS/LA/12266/002/Streaming/12266-002_Master_Driver_Accident_Procedures_Chapter_4.wmv"/>
+<media src="mms://MMS/LA/12266/002/Streaming/12266-002_Master_Driver_Accident_Procedures_Chapter_5.wmv"/>
+        </seq>
+    </body>
+</smil>

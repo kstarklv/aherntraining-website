@@ -1,0 +1,14 @@
+<?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="Generator" content="Microsoft Windows Media Player -- 10.0.0.4036"/>
+        <title>12259-002_Master_Driver_Extreme_Weather_Driving</title>
+    </head>
+    <body>
+        <seq>
+            <media src="mms://apps-srv08/lms_videos/external/12259-002_Master_Driver_Extreme_Weather_Driving_Chapter_1.wmv"/>
+            <media src="mms://apps-srv08/lms_videos/external/12259-002_Master_Driver_Extreme_Weather_Driving_Chapter_2.wmv"/>
+            <media src="mms://apps-srv08/lms_videos/external/12259-002_Master_Driver_Extreme_Weather_Driving_Chapter_3.wmv"/>
+        </seq>
+    </body>
+</smil>

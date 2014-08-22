@@ -1,0 +1,13 @@
+<?wpl version="1.0"?>
+<smil>
+    <head>
+        <meta name="16413-001_Avoiding_Rear_End_Collisions" content="Microsoft Windows Media Player -- 10.0.0.4036"/>
+    </head>
+    <body>
+        <seq>
+<media src="mms://MMS/LA/16413/001/Streaming/16413-001-01.wmv"/>
+<media src="mms://MMS/LA/16413/001/Streaming/16413-001-02.wmv"/>
+
+        </seq>
+    </body>
+</smil>
